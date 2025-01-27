@@ -4,10 +4,22 @@ using MinimalApi.Dominio.Entidades;
 namespace MinimalAPI.Infraestutura.Db;
 public class DbContexto : DbContext
 {
+    private readonly IConfiguration _configuracaoAppSettings;
+    public DbContexto(IConfiguration configuracaoAppSettings)
+    {
+        _configuracaoAppSettings = configuracaoAppSettings;
+    }
     public DbSet<Administrador> Administradores { get; set; } = default!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("string de conexão");
+        if (!optionsBuilder.IsConfigured)
+        {
+            var stringConexao = _configuracaoAppSettings.GetConnectionString("sqlserver")?.ToString();
+            if (!string.IsNullOrEmpty(stringConexao))
+            {
+                optionsBuilder.UseSqlServer(stringConexao);
+            }
+        }
     }
 }
