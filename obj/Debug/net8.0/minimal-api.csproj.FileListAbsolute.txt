@@ -162,3 +162,8 @@ C:\Users\Rodrigo\Documents\DotNET\minimal-api\bin\Debug\net8.0\runtimes\browser\
 C:\Users\Rodrigo\Documents\DotNET\minimal-api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Rodrigo\Documents\DotNET\minimal-api\obj\Debug\net8.0\minimal-api.csproj.AssemblyReference.cache
 C:\Users\Rodrigo\Documents\DotNET\minimal-api\obj\Debug\net8.0\minimal-.F3613C90.Up2Date
+C:\Users\Rodrigo\Documents\DotNET\minimal-api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Rodrigo\Documents\DotNET\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Rodrigo\Documents\DotNET\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Rodrigo\Documents\DotNET\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rodrigo\Documents\DotNET\minimal-api\obj\Debug\net8.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
