@@ -5198,11 +5198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\Documents\\DotNET\\minimal-api\\minimal-api.csproj",
+      "projectUniqueName": "C:\\Users\\Rodrigo\\Documents\\DotNET\\minimal-api\\API\\minimal-api.csproj",
       "projectName": "minimal-api",
-      "projectPath": "C:\\Users\\Rodrigo\\Documents\\DotNET\\minimal-api\\minimal-api.csproj",
+      "projectPath": "C:\\Users\\Rodrigo\\Documents\\DotNET\\minimal-api\\API\\minimal-api.csproj",
       "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\Documents\\DotNET\\minimal-api\\obj\\",
+      "outputPath": "C:\\Users\\Rodrigo\\Documents\\DotNET\\minimal-api\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config"
